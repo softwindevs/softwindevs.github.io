@@ -199,7 +199,7 @@
 
     	$('html, body').stop().animate({
        	'scrollTop': $target.offset().top
-      }, 800, 'swing', function () {
+      }, 1200, 'swing', function () {
       	window.location.hash = target;
       });
 
