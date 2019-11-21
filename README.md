@@ -1,7 +1,8 @@
 # softwindevs.github.io
 ----------------------------------
 
-<b>Contact us to use this template:</b> Softwindev@oulook.com
+<p>Not for personal or commercial use</p>
+<b>Contact us:</b> Softwindev@oulook.com
 
 ----------------------------------
 ----------------------------------
