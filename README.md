@@ -2,7 +2,7 @@
 ----------------------------------
 
 <p>Not for personal or commercial use</p>
-<b>Contact us:</b> Softwindev@oulook.com
+<b>Contact us:</b> softwindev@oulook.com
 
 ----------------------------------
 ----------------------------------
