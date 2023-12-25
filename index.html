@@ -7,16 +7,29 @@
 	<meta name="description"
 		content="We develop custom mobile Apps, websites and Graphic Designs, that will meet your requirements ...">
 	<meta name="google-site-verification" content="4lgO-WnlFKYlhzs_hHszrMs_EOz6W_r5q1k7YpLzV2Y" />
-	<meta name="keywords"
-		content="softwindev,softwindevs,naik-waqar,SoftWIN-Dev,Sotwindevs,naik waqar, waqar naik, valueinspecto, value inspecto">
+	<meta name="keywords" content="Softwindev,softwindevs, waqarnaik, naikwaqar, valueinspecto, value inspecto">
 	<meta name="author" content="Waqar Naik">
+	<meta name="robots" conent="index, follow" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Softwindevs",
+          "alternateName": ["softwindevs", "softwindev", "waqarnaik"],
+          "url": "https://softwindevs.github.io/"
+        }
+    </script>
+	<script src="js/contact.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script type="text/javascript">(function () { emailjs.init("1Dt8vRa0G3aJpDMlS"); })();</script>
 	<link rel="icon" type="image/png" href="favicon.png">
 </head>
 
@@ -30,13 +43,14 @@
 				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
 				<div class="logo">
-					<a href="index.html">SoftWIN-Dev's</a>
+					<a href="index.html">SoftwinDev's</a>
 				</div>
 				<nav id="main-nav-wrap">
 					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li class="current"><a class="smoothscroll" href="#intro" title="">What We Do</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Projects</a></li>
+						<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -46,167 +60,376 @@
 
 	<!-- intro section -->
 	<section id="intro">
-		<div class="intro-overlay"></div>
+		<div class="intro-overlay">
+			<video autoplay muted loop>
+				<source src="images/bg-intro.mp4" type="video/mp4">
+			</video>
+		</div>
 		<div class="intro-content">
 			<div class="row">
 
 				<div class="col-twelve">
 
 					<h5>Hello, World!</h5>
-					<h1>I'm Naik Waqar</h1>
+					<h1>We develop digital products from "scratch"</h1>
 
-					<p class="intro-position">
-						<span>💎 Product Designer</span>
-						<span>👨‍💻 Developer</span>
-					</p>
-
-					<a class="button stroke smoothscroll" href="#about" title="More About Me">More About Me</a>
+					<a style="margin-top: 3%;" class="button stroke smoothscroll" href="#portfolio"
+						title="Explore Projects">Explore Projects</a>
 
 				</div>
 
 			</div>
 		</div>
-
-		<ul class="intro-social">
-			<li><a href="https://www.linkedin.com/in/naik-waqar" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-			</li>
-			<li><a href="https://www.behance.net/naikwaqar" title="Behance"><i class="fa fa-behance"></i></a></li>
-			<li><a href="https://dribbble.com/naikwaqar" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
-			<li><a href="https://play.google.com/store/apps/dev?id=8577214117547712223" title="My Apps On Playstore"><i
-						class="fa fa-android"></i></a></li>
-			<li><a href="https://github.com/Naik-Waqar" title="Github"><i class="fa fa-github"></i></a></li>
-		</ul>
-
 	</section>
 
 	<!-- Portfolio Section -->
 	<section id="portfolio">
 		<div class="row section-intro">
 
-			<h5>Portfolio</h5>
-			<h1>Some of my awesome works</h1>
+			<h5>Explore Projects</h5>
+			<h1>Some Of Our Featured Projects</h1>
 
 		</div> <!-- /section-intro-->
 
 		<div class="row">
 
-			<!-- portfolio-wrapper -->
-			<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-				<div class="bgrid folio-item">
-					<div class="item-wrap">
-						<img src="images/portfolio/fandrum.jpg" alt="UX Case Study Fandrum">
-						<a href="#modal-01" class="overlay">
-							<div class="folio-item-table">
-								<div class="folio-item-cell">
-									<h3 class="folio-title">UX Case Study- Fandrum</h3>
-									<span class="folio-types">
-										Case Study, UI/UX Design
-									</span>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div> <!-- /folio-item 1 -->
-
-				<!-- modal popups -->
-				<div id="modal-01" class="popup-modal slider mfp-hide">
-					<div class="media">
-						<img src="images/portfolio/fandrum.jpg" alt="UX Case Study Fandrum" />
-					</div>
-					<div class="description-box">
-						<h4>UX Case Study- Redesigning Fandrum UI</h4>
-						<p>Fandrum is a social app, where fans can follow thier favourite celebs using the app. My
-							job was to improve app UI UX with respect to user & market research</p>
-						<div class="categories">Case Study, UI/UX Design</div>
-					</div>
-					<div class="link-box">
-						<a href="https://www.behance.net/gallery/149789529/UI-Redesign-Case-study-Fandrum"
-							target="_blank">Details</a>
-						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>
-				</div> <!-- /modal-01 -->
-
-
 				<!-- portfolio-wrapper -->
 				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 					<div class="bgrid folio-item">
 						<div class="item-wrap">
-							<img src="images/portfolio/value-inspecto.jpg" alt="food app">
-							<a href="#modal-02" class="overlay">
+							<img src="images/portfolio/fandrum.jpg" alt="UX Case Study Fandrum">
+							<a href="#modal-01" class="overlay">
 								<div class="folio-item-table">
 									<div class="folio-item-cell">
-										<h3 class="folio-title">Value Inspecto</h3>
+										<h3 class="folio-title">UX Case Study- Fandrum</h3>
 										<span class="folio-types">
-											Web Developement
+											Case Study, UI/UX Design
 										</span>
 									</div>
 								</div>
 							</a>
 						</div>
-					</div> <!-- /folio-item 2 -->
+					</div> <!-- /folio-item 1 -->
 
 					<!-- modal popups -->
-					<div id="modal-02" class="popup-modal slider mfp-hide">
+					<div id="modal-01" class="popup-modal slider mfp-hide">
 						<div class="media">
-							<img src="images/portfolio/value-inspecto.jpg" alt="" />
+							<img src="images/portfolio/fandrum.jpg" alt="UX Case Study Fandrum" />
 						</div>
 						<div class="description-box">
-							<h4>Value Inspecto</h4>
-							<p>The tool to help you convert any values in your UI/UX Design & Frontend Developement
-								projects.</p>
-							<div class="categories">Web Developement</div>
+							<h4>UX Case Study- Redesigning Fandrum UI</h4>
+							<p>Fandrum is a social app, where fans can follow thier favourite celebs using the app. My
+								job was to improve app UI UX with respect to user & market research</p>
+							<div class="categories">Case Study, UI/UX Design</div>
 						</div>
 						<div class="link-box">
-							<a href="https://valueinspecto.github.io/" target="_blank">Visit</a>
+							<a href="https://www.behance.net/gallery/149789529/UI-Redesign-Case-study-Fandrum"
+								target="_blank">Details</a>
 							<a href="#" class="popup-modal-dismiss">Close</a>
 						</div>
-					</div> <!-- /modal-02 -->
+					</div> <!-- /modal-01 -->
 
-				</div> <!-- /portfolio-wrapper -->
-			</div>
+					<!-- portfolio-wrapper -->
+					<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/value-inspecto.jpg" alt="value inspecto">
+								<a href="#modal-02" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Value Inspecto</h3>
+											<span class="folio-types">
+												Web Developement
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item 2 -->
+
+						<!-- modal popups -->
+						<div id="modal-02" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/value-inspecto.jpg" alt="" />
+							</div>
+							<div class="description-box">
+								<h4>Value Inspecto</h4>
+								<p>The tool to help you convert any values in your UI/UX Design & Frontend Developement
+									projects.</p>
+								<div class="categories">Web Developement</div>
+							</div>
+							<div class="link-box">
+								<a href="https://valueinspecto.github.io/" target="_blank">Visit</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-02 -->
+
+						<!-- portfolio-wrapper -->
+						<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+							<div class="bgrid folio-item">
+								<div class="item-wrap">
+									<img src="images/portfolio/screenspecto.jpg" alt="screenspecto">
+									<a href="#modal-03" class="overlay">
+										<div class="folio-item-table">
+											<div class="folio-item-cell">
+												<h3 class="folio-title">ScreenSpecto. Android App</h3>
+												<span class="folio-types">
+													App Development
+												</span>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div> <!-- /folio-item 3 -->
+
+							<!-- modal popups -->
+							<div id="modal-03" class="popup-modal slider mfp-hide">
+								<div class="media">
+									<img src="images/portfolio/screenspecto.jpg" alt="" />
+								</div>
+								<div class="description-box">
+									<h4>ScreenSpecto. Android App</h4>
+									<p>Know any android smartphone screen specs and use advance converto tool in UI/UX
+										designing & development to convert values in your project.</p>
+									<div class="categories">App Development</div>
+								</div>
+								<div class="link-box">
+									<a href="https://play.google.com/store/apps/details?id=com.softwindevs.screenspecto"
+										target="_blank">
+										<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512; width: 2em; height: 2em; vertical-align: middle;" xml:space="preserve">
+											<g>
+												<linearGradient id="a" x1="-2.254" x2="35.739" y1="68.986" y2="30.992" gradientUnits="userSpaceOnUse">
+													<stop offset="0" stop-color="#00e2ff"/>
+													<stop offset="1" stop-color="#00c5ff"/>
+												</linearGradient>
+												<path fill="#ffce00" d="m81.939 44.002-13.548-7.825-13.87 13.87L68.39 63.916l13.595-7.851c2.12-1.288 3.385-3.538 3.385-6.018s-1.266-4.73-3.431-6.045z" opacity="1" data-original="#ffce00"/>
+												<path fill="url(#a)" d="M54.521 50.047 16.742 11.996a7.13 7.13 0 0 0-2.112 5.068v65.85c0 1.971.798 3.754 2.112 5.069z" opacity="1" data-original="url(#a)"/>
+												<path fill="#00f076" d="m54.521 50.047 13.87-13.87.022-.022-18.584-10.7-24.498-14.398c-2.206-1.361-4.881-1.408-7.134-.141-.516.328-.986.657-1.455 1.079z" opacity="1" data-original="#00f076"/>
+												<path fill="#f63448" d="M16.742 87.982c.469.422.939.751 1.455 1.079 1.126.61 2.3.939 3.473.939 1.267 0 2.487-.375 3.614-1.032l24.544-14.329 18.584-10.7-.022-.022-13.869-13.87z" opacity="1" data-original="#f63448"/>
+											</g>
+										</svg>
+										Google Playstore</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
+							</div> <!-- /modal-03 -->
+
+							<!-- portfolio-wrapper -->
+							<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+								<div class="bgrid folio-item">
+									<div class="item-wrap">
+										<img src="images/portfolio/asmaulhusna.jpg" alt="AsmaulHusna App">
+										<a href="#modal-04" class="overlay">
+											<div class="folio-item-table">
+												<div class="folio-item-cell">
+													<h3 class="folio-title">99 Names of Allah Android App</h3>
+													<span class="folio-types">
+														App Development
+													</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div> <!-- /folio-item 4 -->
+
+								<!-- modal popups -->
+								<div id="modal-04" class="popup-modal slider mfp-hide">
+									<div class="media">
+										<img src="images/portfolio/asmaulhusna.jpg" alt="AsmaulHusna App" />
+									</div>
+									<div class="description-box">
+										<h4>99 Names of Allah Android App</h4>
+										<p>"99 Names of Allah- Asmaul Husna & Dhikr/Tasbeeh " App, where you can learn &
+											educate
+											your kids with 99 names of Allah(swt) and with meanings in detail. Also, You
+											can listen
+											to 99 names of Allah(swt) with Heart touching Tilawat.
+											You can use the Dhikr & Tasbeeh section for dhikr.</p>
+										<div class="categories">App Development</div>
+									</div>
+									<div class="link-box">
+										<a href="https://play.google.com/store/apps/details?id=com.softwindevs.asmaulhusnadikhr"
+											target="_blank">
+											<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512; width: 2em; height: 2em; vertical-align: middle;" xml:space="preserve">
+												<g>
+													<linearGradient id="a" x1="-2.254" x2="35.739" y1="68.986" y2="30.992" gradientUnits="userSpaceOnUse">
+														<stop offset="0" stop-color="#00e2ff"/>
+														<stop offset="1" stop-color="#00c5ff"/>
+													</linearGradient>
+													<path fill="#ffce00" d="m81.939 44.002-13.548-7.825-13.87 13.87L68.39 63.916l13.595-7.851c2.12-1.288 3.385-3.538 3.385-6.018s-1.266-4.73-3.431-6.045z" opacity="1" data-original="#ffce00"/>
+													<path fill="url(#a)" d="M54.521 50.047 16.742 11.996a7.13 7.13 0 0 0-2.112 5.068v65.85c0 1.971.798 3.754 2.112 5.069z" opacity="1" data-original="url(#a)"/>
+													<path fill="#00f076" d="m54.521 50.047 13.87-13.87.022-.022-18.584-10.7-24.498-14.398c-2.206-1.361-4.881-1.408-7.134-.141-.516.328-.986.657-1.455 1.079z" opacity="1" data-original="#00f076"/>
+													<path fill="#f63448" d="M16.742 87.982c.469.422.939.751 1.455 1.079 1.126.61 2.3.939 3.473.939 1.267 0 2.487-.375 3.614-1.032l24.544-14.329 18.584-10.7-.022-.022-13.869-13.87z" opacity="1" data-original="#f63448"/>
+												</g>
+											</svg>
+											Google Playstore</a>
+										<a href="#" class="popup-modal-dismiss">Close</a>
+									</div>
+								</div> <!-- /modal-04 -->
+
+								<!-- portfolio-wrapper -->
+								<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+									<div class="bgrid folio-item">
+										<div class="item-wrap">
+											<img src="images/portfolio/flower-bloom.jpg" alt="Flower Bloom Web Design">
+											<a href="#modal-05" class="overlay">
+												<div class="folio-item-table">
+													<div class="folio-item-cell">
+														<h3 class="folio-title">Flower Selling Website</h3>
+														<span class="folio-types">
+															Web Design, UI/UX Design
+														</span>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div> <!-- /folio-item 5 -->
+
+									<!-- modal popups -->
+									<div id="modal-05" class="popup-modal slider mfp-hide">
+										<div class="media">
+											<img src="images/portfolio/flower-bloom.jpg"
+												alt="Flower Bloom Web Design" />
+										</div>
+										<div class="description-box">
+											<h4>Flower Selling Website</h4>
+											<p>Flower selling/shopping website concept UI/UX, Which makes flower
+												deliveries faster &
+												easy.</p>
+											<div class="categories">Web Design, UI/UX Design</div>
+										</div>
+										<div class="link-box">
+											<a href="https://www.instagram.com/p/B_14h2_nttT/?utm_source=ig_web_copy_link"
+												target="_blank">Details</a>
+											<a href="#" class="popup-modal-dismiss">Close</a>
+										</div>
+									</div> <!-- /modal-05 -->
+
+								</div> <!-- /portfolio-wrapper4 -->
+							</div> <!-- /portfolio-wrapper3 -->
+						</div> <!-- /portfolio-wrapper2 -->
+					</div><!-- /portfolio-wrapper1 -->
 
 		</div>
 
-		&nbsp;
-		<div class="row button-section">
+	</section>
+
+	<!-- services Section -->
+	<section id="services">
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
 			<div class="col-twelve">
-				<a href="morepost.html" title="More Works" class="button stroke">More Works</a>
+				<h5>Services</h5>
+				<h1>Our Expertise, Your Product</h1>
+			</div>
+		</div>
+
+		<div class="row services-content">
+			<div id="owl-slider" class="owl-carousel services-list">
+
+				<!--ui ux -->
+				<div class="service">
+					<span class="icon"><i class="icon-toggles"></i></span>
+					<div class="service-content">
+						<h3>UI/UX Design</h3>
+						<p class="desc">We believe that designing is the great weapon to boost your Business
+							Performance.
+							Come, let&#8217;s sketch it out together to create fabulous interface.
+						</p>
+					</div>
+				</div>
+
+				<!-- graphic design -->
+				<div class="service">
+					<span class="icon"><i class="icon-pencil-ruler"></i></span>
+					<div class="service-content">
+						<h3>Graphics Design</h3>
+						<p class="desc">Want a Great logo or icon illustration for your Business or branding or Having
+							some special to gift someone like photography with a great filters / photoshop or something
+							else.
+						</p>
+					</div>
+				</div>
+
+				<!-- App Development -->
+				<div class="service">
+					<span class="icon"><i class="icon-mobile"></i></span>
+					<div class="service-content">
+						<h3>App Development</h3>
+						<p class="desc">Having awesome Idea, to boost your production with Smartphones. So Let&#39;s get
+							together &amp; design awesome app for you.
+						</p>
+					</div>
+				</div>
+
+				<!-- Web Development -->
+				<div class="service">
+					<span class="icon"><i class="icon-window"></i></span>
+					<div class="service-content">
+						<h3>Web Development</h3>
+						<p class="desc">Are you looking for a cross-platform responsive web app, with a great &amp;
+							user-friendly devices supported website, So let&#39;s get start here!.
+						</p>
+					</div>
+				</div>
+
+				<!-- Playstore listing -->
+				<div class="service">
+					<span class="icon"><i class="icon-bar-chart"></i></span>
+					<div class="service-content">
+						<h3>Playstore listing &amp; Monetization</h3>
+						<p class="desc">Boost your Profit with subscription, ads across web/apps, PPC services and
+							optimize your app listing on play store.
+						</p>
+					</div>
+				</div>
+
+
 			</div>
 		</div>
 
 	</section>
 
-	<!-- about section -->
-	<section id="about">
+	<section id="contact">
 		<div class="row section-intro">
 			<div class="col-twelve">
-				<h5>About</h5>
-				<h1>Bit more about me</h1>
 
-				<div class="row intro-info">
-					<img src="images/profile-pic.png" alt="Profile Picture">
-					<p class="lead">
-						👋, I like to deeply imagine products that are not exists and guide them to REAL LIFE...
-						<br>I have spend several hours on products case studies, & product development journeys, strong
-						experience with customer interaction and real user interviews.
-						When I’m not on the job, I like to spend some time with my cat , A dendrophile & Love to cook
-						some delicious foods on weekend.
-						<br><br>If you’d like to learn more about how my services can help your company, please reach me
-						at
-						📧- <a class="mailto" href="mailto:waqarnaik3@gmail.com">waqarnaik3@gmail.com</a>
-					</p>
-				</div>
+				<h5>Contact</h5>
+				<h1>Let’s Get Talking</h1>
+
+				<p class="lead">Have any awesome idea in mind? shoot us an email.
+				</p>
+
 			</div>
 		</div> <!-- /section-intro -->
-
-		<div class="row button-section">
+		<div id="snackbar"></div>
+		<div class="row contact-form">
 			<div class="col-twelve">
-				<a class="view-cv" target="_blank"
-					href="https://drive.google.com/file/d/1G5FPMf-goL0vK1h0bfSQaYYYAv5h1HP6/view" title="View CV"
-					class="button stroke">View CV</a>
-			</div>
-		</div>
 
+				<!-- form -->
+				<form name="contactForm" onsubmit="sendMail(); return false;">
+					<fieldset>
+						<div class="form-field">
+							<input name="contactName" type="text" placeholder="Your name*" value="" minlength="2"
+								id="fullName" required>
+						</div>
+						<div class="form-field">
+							<input name="contactEmail" type="email" placeholder="Your email*" value="" id="email_id"
+								required>
+						</div>
+						<div class="form-field">
+							<textarea name="contactMessage" placeholder="Project details" rows="10" cols="50"
+								id="message" required></textarea>
+						</div>
+						<div class="form-field">
+							<button class="submitform" type="submit">Submit</button>
+						</div>
+					</fieldset>
+				</form> <!-- Form End -->
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /contact-form -->
 	</section>
 
 	<!-- footer -->
@@ -215,24 +438,18 @@
 			<div class="col-six tab-full pull-right social">
 
 				<ul class="footer-social">
-
-					<li><a href="https://www.linkedin.com/in/naik-waqar" title="LinkedIn"><i
-								class="fa fa-linkedin"></i></a></li>
-					<li><a href="https://https://www.behance.net/naikwaqar" title="Behance"><i
-								class="fa fa-behance"></i></a></li>
-					<li><a href="https://dribbble.com/naikwaqar" title="Dribbble"><i class="fa fa-dribbble"></i></a>
-					</li>
 					<li><a href="https://play.google.com/store/apps/dev?id=8577214117547712223"
-							title="My Apps On Playstore"><i class="fa fa-android"></i></a></li>
-					<li><a href="https://github.com/Naik-Waqar" title="Github"><i class="fa fa-github"></i></a></li>
+							title="Apps On Playstore"><i class="fa fa-android"></i></a></li>
 				</ul>
 
 			</div>
 
 			<div class="col-six tab-full">
 				<div class="copyright">
-					<span>© Copyright softwindevs 2022.</span>
-					<span>Design by <a href="index.html">softwindevs</a></span>
+					<span>© Copyright softwindevs
+						<script>document.write(new Date().getFullYear())</script>.
+					</span>
+					<span>Designed by <a href="index.html">waqarnaik</a></span>
 				</div>
 			</div>
 
@@ -250,6 +467,8 @@
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+
+
 </body>
 
 </html>
